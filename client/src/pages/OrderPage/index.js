@@ -3,7 +3,7 @@ import Type from '../../components/Type'
 
 const OrderPage = () => {
 	return (
-		<div style={{padding: "4rem"}}>
+		<div>
 			<h1>Travel Products</h1>
 			<div>
 				<Type orderType="products"/>
