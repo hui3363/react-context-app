@@ -1,4 +1,3 @@
-import './App.css';
 import OrderPage from './pages/OrderPage';
 import SummaryPage from './pages/SummaryPage';
 
