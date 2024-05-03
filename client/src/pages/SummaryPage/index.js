@@ -30,15 +30,13 @@ const SummaryPage = ({setStep}) => {
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		setStep(2);
-		
+
 	}
 
 	return (
 		<div>
-			<h1>주문 확인
-			</h1>
+			<h1>주문 확인</h1>
 			<h2>여행 상품 : {orderDetails.totals.products}</h2>
-
 			<ul>
 				{productList}
 			</ul>
